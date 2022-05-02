@@ -19,7 +19,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Aosp stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
+
+# maintainer flag
+ARCANA_MAINTAINER := Naathaan
+
+# Bloom and Living Universe Pixel Wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
+# Pixel charger animation
+USE_PIXEL_CHARGER_IMAGES := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
