@@ -159,8 +159,5 @@ ro.lmk.kill_timeout_ms=100
 # System
 persist.sys.binary_xml=false
 
-# FUSE passthrough
-persist.sys.fuse.passthrough.enable=true
-
 # Blur on app-launch
 ro.launcher.blur.appLaunch=0
