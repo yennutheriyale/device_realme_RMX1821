@@ -20,6 +20,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_RMX1821.mk 
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX1821-user \
-    aosp_RMX1821-userdebug \
-    aosp_RMX1821-eng
+    blaze_RMX1821-user \
+    blaze_RMX1821-userdebug \
+    blaze_RMX1821-eng
